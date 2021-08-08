@@ -11,7 +11,11 @@ const navigator = createStackNavigator(
   {
     initialRouteName: "Home",
     defaultNavigationOptions: {
-      title: "App",
+      title: "React Native Miniapps",
+      headerStyle: {
+        backgroundColor: "#f0f",
+        borderBottomWidth: 0,
+      },
     },
   }
 );

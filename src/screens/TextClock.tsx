@@ -195,12 +195,14 @@ const styles = StyleSheet.create({
     width: "30%",
     fontSize: 30,
     textAlign: "center",
+    paddingVertical: 5,
   },
   textHighlighted: {
     width: "30%",
     fontSize: 30,
     textAlign: "center",
     color: "#fff",
+    paddingVertical: 5,
   },
 });
 
